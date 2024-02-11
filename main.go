@@ -8,9 +8,9 @@ import (
 
 func main() {
 	pessoa := person.Person{
-		Name: "Michele",
-		Lastname: "Martins",
-		Age: 33,
+		Name: "Linus",
+		Lastname: "Torvalds",
+		Age: 54,
 	}
 
 	personString, _ := json.Marshal(person.CreatePerson(pessoa))
